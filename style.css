@@ -1,0 +1,50 @@
+.categorias{
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: 335px; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    margin: 30px auto; /* Adiciona margens para centralizar */
+    color: white;
+    justify-content: space-between;
+  }
+
+.categorias h3{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+.sobre{
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    margin: 30px auto; /* Adiciona margens para centralizar */
+    color: white;
+  }
+
+.newsletter{
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    margin-bottom: 70px;
+    color: white;
+  }
+
+.cards {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: 300px; /* Ajuste a altura conforme necessário */
+    background-color: rgb(252, 169, 231);
+    color: white;
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+}
+
+.card {
+  height: 300px;
+  width: 400px;
+  background-color: green;
+}
+
+.card img{
+  height: 250px;
+  width: 400px;
+}
