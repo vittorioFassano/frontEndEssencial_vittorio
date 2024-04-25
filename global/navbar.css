@@ -21,6 +21,7 @@
     */
  }
  
+
  .nav-content,
 
  .navbarNav {
@@ -30,7 +31,7 @@
  }
  .nav-action h1{
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 30px;
  }
 
  .nav-action {
@@ -71,7 +72,7 @@
     background-color: #ffffff20;
     transition-delay: 500;
  }
- 
+
  .nav-list {
     display: none;
     flex-direction: column;

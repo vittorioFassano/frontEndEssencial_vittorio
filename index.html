@@ -30,7 +30,7 @@
       <nav id="navbarNav">
         <ul class="nav-list">
           <li id="nav-menu" class="nav-item">
-            <a href="#menu">Menu</a>
+            <a href="#categorias">Categorias</a>
           </li>
           <li id="nav-sobre" class="nav-item">
             <a href="#sobre">Sobre</a>
@@ -45,30 +45,28 @@
 
   <main>
     <div class="categorias">
-      <h3>categorias</h3>
+      <h3>Categorias</h3>
 
       <div class="cards">
 
         <a target="_blank" title="link para a matéria" href="https://ge.globo.com/futebol/times/fluminense">
           <div class="card">
-
             <img src="/assets/imgs/noticiassss.png" alt="noticiaFlu" />
-
-            notícias
+            <h3> notícias</h3>
           </div>
         </a>
 
         <a target="_blank" title="link para a matéria" href="https://www.fluzao.xyz">
           <div class="card">
             <img src="/assets/imgs/estatisticas.png" alt="noticiaFlu" />
-            estatísticas
+            <h3> estatísticas</h3>
           </div>
         </a>
 
         <a target="_blank" title="link para a matéria" href="https://www.loja.fluminense.com.br">
           <div class="card">
             <img src="/assets/imgs/produtos.png" alt="noticiaFlu" />
-            produtos
+            <h3> produtos</h3>
           </div>
         </a>
 
@@ -119,6 +117,12 @@
       </div>
     </div>
   </footer>
+  <script>
+    function toggleCollapsableMenu() {
+      const nav = document.querySelector(".nav-list");
+      nav.classList.toggle("show-nav-list");
+    }
+  </script>
 </body>
 
 </html>

@@ -1,50 +1,57 @@
-.categorias{
-    width: 100%; /* Ajuste a largura conforme necessário */
-    height: 335px; /* Ajuste a altura conforme necessário */
-    background-color: black;
-    margin: 30px auto; /* Adiciona margens para centralizar */
-    color: white;
-    justify-content: space-between;
-  }
+.categorias {
+  width: 100%;
+  height: 351px;
+  background-color: #178d36;
+  margin: 30px auto;
+  color: white;
+  justify-content: space-between;
+  border: 4px solid black;
+  border-radius: 10px;
+}
 
-.categorias h3{
-    font-size: 25px;
-    margin-left: 20px;
-  }
+.categorias h3 {
+  font-size: 26px;
+  margin-left: 20px;
+}
 
-.sobre{
-    width: 100%; /* Ajuste a largura conforme necessário */
-    height: 300px; /* Ajuste a altura conforme necessário */
-    background-color: black;
-    margin: 30px auto; /* Adiciona margens para centralizar */
-    color: white;
-  }
+.sobre {
+  width: 100%;
+  height: 300px;
+  margin: 30px auto;
+  color: white;
+}
 
-.newsletter{
-    width: 100%; /* Ajuste a largura conforme necessário */
-    height: 300px; /* Ajuste a altura conforme necessário */
-    background-color: black;
-    margin-bottom: 70px;
-    color: white;
-  }
+.newsletter {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 70px;
+  color: white;
+}
 
 .cards {
-    width: 100%; /* Ajuste a largura conforme necessário */
-    height: 300px; /* Ajuste a altura conforme necessário */
-    background-color: rgb(252, 169, 231);
-    color: white;
-    justify-content: space-between;
-    margin-top: 10px;
-    display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: #fdfbc8;
+  color: white;
+  justify-content: space-between;
+  margin-top: 10px;
+  display: flex;
 }
 
 .card {
   height: 300px;
   width: 400px;
-  background-color: green;
+  background-color: #860012;
 }
 
-.card img{
+.card h3 {
+  font-size: 20px;
+  font-weight: 70px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.card img {
   height: 250px;
   width: 400px;
 }
