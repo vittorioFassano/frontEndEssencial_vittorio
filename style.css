@@ -45,7 +45,7 @@
 
 .sobre {
   width: 100%;
-  height: 308px;
+  height: 340px;
   background-color: #178d36;
   margin: 30px auto;
   color: white;
@@ -59,9 +59,19 @@
   margin-left: 20px;
 }
 
+.sobre p {
+  font-size: 21px;
+  color: #860012;
+  margin-right: 60px;
+  font-weight: 450;
+  margin-top: 10px;
+
+
+}
+
 .sobre-descricao {
   width: 100%;
-  height: 258px;
+  height: 290px;
   background-color: #fffed2;
   color: white;
   justify-content: space-between;
@@ -69,11 +79,29 @@
   display: flex;
 }
 
+.sobre-descricao img {
+  width: 300px;
+  height: 270px;
+  margin-left: 90px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 4px solid #860012;
+
+}
+
+.sobre-descricao-texto  {
+  width: 700px;
+  height: 320px;
+  margin-top: 2px;
+ 
+  margin-right: 70px;
+
+}
 
 .newsletter {
   width: 100%;
   height: 350px;
-  background-color: #178d36;
+  background-color: #860012;
   margin-bottom: 80px;
   color: white;
   justify-content: space-between;
@@ -117,7 +145,7 @@
 }
 
 .newsletter-descricao input[type="text"] {
-  border: 3px solid #860012;
+  border: 4px solid  #178d36;
   /* Define a borda vermelha */
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -128,7 +156,7 @@
 }
 
 .newsletter-descricao input[type="email"] {
-  border: 3px solid #860012;
+  border: 4px solid  #178d36;
   /* Define a borda vermelha */
   border-radius: 5px;
   background-color: #f2f2f2;
