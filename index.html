@@ -17,7 +17,7 @@
   <header id="navbar" class="navbar">
     <div class="container nav-content">
       <div class="nav-action">
-        <a href="/#menu">
+        <a href="/#home">
           <img id="logo-icon" src="/assets/icons/jogador-de-futebol.png" alt="logo" />
           <h1>
             CENTRAL FLUMINENSE FOOTBALL CLUB<sup><small></small></sup>
@@ -44,11 +44,9 @@
   </header>
 
   <main>
-    <div class="categorias">
+    <div class="categorias" id="categorias">
       <h3>Categorias</h3>
-
       <div class="cards">
-
         <a target="_blank" title="link para a matéria" href="https://ge.globo.com/futebol/times/fluminense">
           <div class="card">
             <img src="/assets/imgs/noticiassss.png" alt="noticiaFlu" />
@@ -69,74 +67,60 @@
             <h3> produtos</h3>
           </div>
         </a>
-
       </div>
     </div>
 
-    <div class="sobre">
+    <div class="sobre" id="sobre">
       <h3>Sobre</h3>
       <div class="sobre-descricao">
         <img src="/assets/imgs/sobre.png" alt="noticiaFlu" />
         <div class="sobre-descricao-texto">
-
-
           <p>
-
             Na Central do Fluminense, você encontrará uma ampla gama de conteúdos, desde notícias atualizadas e
             estatísticas detalhadas até uma variedade de produtos e promoções exclusivas. Nosso objetivo é proporcionar
             uma experiência completa para os fãs do Fluminense, oferecendo informações precisas e relevantes sobre o
-            clube, suas atividades e seus jogadores. Se inscreva abaixo e não perca a chance de mergulhar no universo vibrante e apaixonado
-            do Fluminense, onde cada detalhe é cuidadosamente elaborado para proporcionar uma experiência única aos torcedores.
-
+            clube, suas atividades e seus jogadores. Se inscreva abaixo e não perca a chance de mergulhar no universo
+            vibrante e apaixonado
+            do Fluminense, onde cada detalhe é cuidadosamente elaborado para proporcionar uma experiência única aos
+            torcedores.
         </div>
-
-
-
       </div>
     </div>
 
-    <div class="newsletter">
+    <div class="newsletter" id="newsletter">
       <h3>Newsletter</h3>
       <div class="newsletter-descricao">
-        <div class="form">
-          <h2>inscreva-se e receba notícias e ofertas sobre o fluzão!</h2>
-          <form id="newsletter-form" action="#" method="POST">
-            <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
-            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
-            <label class="checkbox-container">
-              Deseja receber a newsletter?
-              <input type="checkbox" id="receber" name="receber">
-              <span class="checkmark"></span>
-            </label>
-            <button>Enviar</button>
-          </form>
+        <div class="container-forms">
+          <div class="form">
+            <h2>inscreva-se e receba notícias e ofertas sobre o fluzão!</h2>
+            <form id="newsletter-form" action="#" method="POST">
+              <input type="text" id="nome" name="nome" placeholder="Nome" class="inputs"><br><br>
+              <input type="email" id="email" name="email" placeholder="Email" class="inputs" required><br><br>
+              <label class="checkbox-container">
+                Deseja receber a newsletter?
+                <input type="checkbox" id="receber" name="receber">
+                <span class="checkmark"></span>
+              </label>
+              <button>Enviar</button>
+            </form>
+          </div>
         </div>
-
       </div>
     </div>
-
-
-
-
+    </div>
   </main>
-
-
-
-
-
 
   <footer id="footer" class="footer">
     <div class="container footer-content">
       <div class="footer-action">
-        <a href="#menu">
-          <h3>
-            Desenvolvido por Vittorio Fassano - Residência em TIC Software
-            2024.1 - T18
-          </h3>
-        </a>
+        <h3>
+          Desenvolvido por Vittorio Fassano - Residência em TIC Software
+          2024.1 - T18
+        </h3>
       </div>
     </div>
   </footer>
+
   <script>
     function toggleCollapsableMenu() {
       const nav = document.querySelector(".nav-list");
